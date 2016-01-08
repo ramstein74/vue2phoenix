@@ -8,11 +8,8 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# kick it!
 npm run dev
 
-# build for production with minification
-npm run build
-```
-
+it will recreate the app.js file every time you change your code
 For more information see the [docs for vueify](https://github.com/vuejs/vueify).
