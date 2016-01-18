@@ -1,20 +1,25 @@
 # vue
 
-> desc
+This is just the vue app. You will need to create a phoenix app with --no-brunch alongside this app. For simplicity call the phoenix app nobvue.
+the browserify task will place app.js inside the  ../nobvue/priv/static/js/app.js folder.
+it will recreate the app.js file every time you change your code
+For more information see the [docs for vueify](https://github.com/vuejs/vueify).
 
-## Build Setup
 
-``` bash
-# install dependencies
+
+Just do 
 npm install
-
-# kick it!
+inside the vue2phoenix app
+and then
 npm run dev
 
-alongside this folder create a phoenix project called nobvue with --no-brunch 
-the browserify task will place app.js inside the  ../nobvue/priv/static/js/app.js folder
+then
+inside nobvue folder run your phoenix app
+then inside your layout.html.ex add the vue component
+
+ <app></app>
+
 
 adapt it to your needs...
 
-it will recreate the app.js file every time you change your code
-For more information see the [docs for vueify](https://github.com/vuejs/vueify).
+
