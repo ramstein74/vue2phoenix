@@ -15,9 +15,8 @@ npm run dev
 
 then
 inside nobvue folder run your phoenix app
-then inside your layout.html.ex add the vue component
+then inside your layout.html.ex add the vue component < app > < / app >
 
- <app></app>
 
 
 adapt it to your needs...
